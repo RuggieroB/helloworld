@@ -14,4 +14,4 @@ Algoritmo "volume.py": Algoritmo che in base ad una scelta dell'utente, calcola 
 
 Algoritmo "primogrado.py": Algoritmo che risolve equazioni di primo grado nella forma "aX+b=0".
 
-Algoritmo #secgrado.py": Algoritmo che risolve equazioni di secondo grado nella forma "aX^2+bX+c=0".
+Algoritmo "secgrado.py": Algoritmo che risolve equazioni di secondo grado nella forma "aX^2+bX+c=0".
