@@ -17,7 +17,7 @@ if scelta==0: #Alternativa nel caso in cui l'utente abbia scelto il cubo:
 elif scelta==1: #Alternativa nel caso in cui l'utente abbia scelto la sfera:
     raggio = input("Inserisci il raggio della sfera: ") #Input del raggio della sfera
     raggio = int(raggio) #Cast al tipo "int" (intero)
-    volume = 4/3 * math.pi * raggio * raggio * raggio #Calcolo del volume della sfera
+    volume = 4. / 3. * math.pi * raggio * raggio * raggio #Calcolo del volume della sfera
     print("La sfera di raggio",raggio,"ha volume",volume) #Stampa del volume della sfera
 else: 
     print("Scelta non valida!") #Alternativa con messaggio di errore in caso di scelta non valida
