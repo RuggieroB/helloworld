@@ -38,9 +38,9 @@ else: #Alternativa nel caso in cui siano presenti entrambe le incognite ed il te
 	print("Equazione di secondo grado, completa:") #Stampa della tipologia di equazione
 	delta = b * b - 4 * a * c #Calcolo del delta
 	if delta < 0: #Alternativa nel caso in cui il delta sia negativo
-		Rad_-Delta = math.sqrt(-delta) #Calcolo della radice quadrata del delta
+		Rad_Delta = math.sqrt(-delta) #Calcolo della radice quadrata del delta
 		r = -b / (2.0 * a) #Calcolo della parte reale della soluzione
-		imm = abs(Rad_-Delta / (2.0 * a)) #Calcolo della parte immaginaria della soluzione
+		imm = abs(Rad_Delta / (2.0 * a)) #Calcolo della parte immaginaria della soluzione
 		print("Delta < 0: L'equazione ammette due soluzioni complesse coniugate: X1 =",r,"-i",imm ,"; X2 =",r,"+i",imm) #Stampa delle soluzioni per questa alternativa
 	elif delta == 0: #Alternativa nel caso in cui il delta sia pari a 0
 		print("Delta = 0: L'equazione ammette due soluzioni coincidenti: X1 = X2 =",-b / (2.0 * a)) #Stampa delle soluzioni per questa alternativa
